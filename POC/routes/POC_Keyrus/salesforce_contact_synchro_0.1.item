@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:id="_AirVEHybEe2Z_ultV0NU8w" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default" xmi:id="_AirVEXybEe2Z_ultV0NU8w"/>
+  <parameters xmi:id="_AirVEnybEe2Z_ultV0NU8w">
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info" xmi:id="_AirVE3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_AirVFHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_AirVFXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_AirVFnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_AirVF3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_AirVGHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_AirVGXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_AirVGnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_AirVG3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_AirVHHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_AirVHXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_AirVHnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_AirVH3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_AirVIHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_AirVIXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_AirVInybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_AirVI3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_AirVJHybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uDNJEHopEe2cKddvUQ3tuw" name="DataOperation" xmi:id="_AirVJXybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uD6TsHopEe2cKddvUQ3tuw" name="Mathematical" xmi:id="_AirVJnybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uEm3QHopEe2cKddvUQ3tuw" name="Numeric" xmi:id="_AirVJ3ybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uGAlcHopEe2cKddvUQ3tuw" name="Relational" xmi:id="_AirVKHybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uBtUQHopEe2cKddvUQ3tuw" name="SQLike" xmi:id="_AirVKXybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uGiJ4HopEe2cKddvUQ3tuw" name="StringHandling" xmi:id="_AirVKnybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uMwtsHopEe2cKddvUQ3tuw" name="TalendDataGenerator" xmi:id="_AirVK3ybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uNtv8HopEe2cKddvUQ3tuw" name="TalendDate" xmi:id="_AirVLHybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uPyzkHopEe2cKddvUQ3tuw" name="TalendStringUtil" xmi:id="_AirVLXybEe2Z_ultV0NU8w"/>
+    <routinesParameter id="_uOzVEHopEe2cKddvUQ3tuw" name="TalendString" xmi:id="_AirVLnybEe2Z_ultV0NU8w"/>
+  </parameters>
+  <node componentName="cMQConnectionFactory" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64" xmi:id="_AirVL3ybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMQConnectionFactory_1" xmi:id="_AirVMHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="MQ_TYPE" value="ActiveMQ" xmi:id="_AirVMXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="USE_TRANSACTION" value="false" xmi:id="_AirVMnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_BROKER_URI" value="&quot;tcp://localhost:61616&quot;" xmi:id="_AirVM3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="IS_AMQ_HTTP_BROKER" value="false" xmi:id="_AirVNHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="AMQ_POOL" value="false" xmi:id="_AirVNXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_MAX_CONNECTIONS" show="false" value="1" xmi:id="_AirVNnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_MAX_ACTIVE" show="false" value="500" xmi:id="_AirVN3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_IDLE_TIMEOUT" show="false" value="30000" xmi:id="_AirVOHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" show="false" value="60000" xmi:id="_AirVOXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="AMQ_AUTH" value="false" xmi:id="_AirVOnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQ_USERNAME" show="false" value="&quot;&quot;" xmi:id="_AirVO3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="AMQ_PASSWORD" show="false" value="enc:system.encryption.key.v1:qls3Rszsb8XTiJoBa9m9Ak2aSPQAZXql/mq9t20R" xmi:id="_AirVPHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false" xmi:id="_AirVPXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WQM_SEVER" show="false" value="&quot;localhost&quot;" xmi:id="_AirVPnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_PORT" show="false" value="1414" xmi:id="_AirVP3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="WMQ_TRANSPORT_TYPE" show="false" value="1" xmi:id="_AirVQHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_QUEUE_MANAGER" show="false" value="&quot;mq.queue.manager&quot;" xmi:id="_AirVQXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_CHANNEL" show="false" value="&quot;SYSTEM.DEF.SVRCONN&quot;" xmi:id="_AirVQnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="WMQ_AUTH" show="false" value="false" xmi:id="_AirVQ3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_USERNAME" show="false" value="&quot;&quot;" xmi:id="_AirVRHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="WMQ_PASSWORD" show="false" value="enc:system.encryption.key.v1:HkLoOZBm+DtjmpNq2TDIlzai3/WzDFRlJm4ZSvR5" xmi:id="_AirVRXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="WMQ_DRIVER_JAR" show="false" xmi:id="_AirVRnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_SEVER" show="false" value="&quot;localhost&quot;" xmi:id="_AirVR3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_PORT" show="false" value="&quot;1414&quot;" xmi:id="_AirVSHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_CHANNEL" show="false" value="&quot;channel.name&quot;" xmi:id="_AirVSXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_NAME" show="false" value="&quot;default&quot;" xmi:id="_AirVSnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="WMQ_N_AUTH" show="false" value="false" xmi:id="_AirVS3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_CCSID" show="false" value="&quot;&quot;" xmi:id="_AirVTHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="WMQ_N_USERNAME" show="false" value="&quot;&quot;" xmi:id="_AirVTXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="WMQ_N_PASSWORD" show="false" value="enc:system.encryption.key.v1:YrswtcUzm5AwZqoCvaHp6EVYnGhbdKQvXZhfHp0K" xmi:id="_AirVTnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="WMQ_N_DRIVER_JAR" show="false" xmi:id="_AirVT3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQP_BROKER_URI" show="false" value="&quot;localhost&quot;" xmi:id="_AirVUHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQP_PORT" show="false" value="&quot;5672&quot;" xmi:id="_AirVUXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="AMQP_SSL" show="false" value="false" xmi:id="_AirVUnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="AMQP_USE_AUTH" show="false" value="false" xmi:id="_AirVU3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="AMQP_USERNAME" show="false" value="&quot;guest&quot;" xmi:id="_AirVVHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="AMQP_PASSWORD" show="false" value="enc:system.encryption.key.v1:wpnyorrCR6vmjahSlZF8snIHFFAjMiBmHuX28muInK8bIgU=" xmi:id="_AirVVXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MQTT_HOST" show="false" value="&quot;127.0.0.1&quot;" xmi:id="_AirVVnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MQTT_PORT" show="false" value="1883" xmi:id="_AirVV3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="MQTT_SSL" show="false" value="false" xmi:id="_AirVWHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="FILE" name="MQTT_SSL_TRUST_STORE" show="false" value="" xmi:id="_AirVWXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="MQTT_SSL_TRUST_STORE_PASSWORD" show="false" value="" xmi:id="_AirVWnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="FILE" name="MQTT_SSL_KEY_STORE" show="false" value="" xmi:id="_AirVW3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="MQTT_SSL_KEY_STORE_PASSWORD" show="false" value="" xmi:id="_AirVXHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="MQTT_AUTO_RECONNECT" show="false" value="true" xmi:id="_AirVXXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MQTT_CONNECTION_TIMEOUT" show="false" value="30" xmi:id="_AirVXnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MQTT_RECONNECT_DELAY" show="false" value="128000" xmi:id="_AirVX3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="MQTT_VERSION" show="false" value="4" xmi:id="_AirVYHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="MQTT_QOS" show="false" value="0" xmi:id="_AirVYXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="MEMO_JAVA" name="OTHER_CODE" show="false" value="&#10;&#9;&#9;&#9;&#9;/*&#10;&#9;&#9;&#9;&#9;* Please specify &quot;jmsConnectionFactory&quot; here&#10;&#9;&#9;&#9;&#9;*/&#10;&#9;&#9;&#9;&#9;//jmsConnectionFactory = new org.apache.activemq.ActiveMQConnectionFactory(&quot;vm://localhost?broker.persistent=false&quot;);&#10;&#9;&#9;&#9;" xmi:id="_AirVYnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="OTHER_DRIVER_JAR" show="false" xmi:id="_AirVY3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="MQTT_AUTH" show="false" value="false" xmi:id="_AirVZHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MQTT_USERNAME" show="false" value="&quot;&quot;" xmi:id="_AirVZXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="MQTT_PASSWORD" show="false" value="enc:system.encryption.key.v1:/mKMHiTPv02T2hKg6Ldmvt8aaoTZdYMDfrHbVIGe" xmi:id="_AirVZnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVZ3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVaHybEe2Z_ultV0NU8w"/>
+  </node>
+  <node componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160" xmi:id="_AirVaXybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSOAP_1" xmi:id="_AirVanybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SERVICE_NS" show="false" value="" xmi:id="_AirVa3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="ADDRESS" value="&quot;https://putsreq.com/5j720O0L72bNXR7tYMUg&quot;" xmi:id="_AirVbHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL" xmi:id="_AirVbXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="WSDL_TYPE" value="file" xmi:id="_AirVbnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="FILE" name="WSDL_FILE" value="&quot;C:/Users/hadali/Desktop/WSDL_Contact.wsdl&quot;" xmi:id="_AirVb3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" show="false" value="" xmi:id="_AirVcHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest" xmi:id="_AirVcXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SERVICE_CLASS" show="false" value="&quot;beans.ServiceClass&quot;" xmi:id="_AirVcnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="EXTERNAL" name="SERVICE_CONFIGURATION" value="" xmi:id="_AirVc3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD" xmi:id="_AirVdHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ALLOW_STREAMING" value="false" xmi:id="_AirVdXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="RAW_TOOLTIP" show="false" value=" (MESSAGE dataFormat without SAM Support)" xmi:id="_AirVdnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="CXF_MESSAGE_TOOLTIP" show="false" value=" (MESSAGE dataFormat plus SAM Support)" xmi:id="_AirVd3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false" xmi:id="_AirVeHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" value="&quot;{http://soap.sforce.com/2005/09/outbound}NotificationService&quot;" xmi:id="_AirVeXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="PORT_NAME" value="&quot;{http://soap.sforce.com/2005/09/outbound}Notification&quot;" xmi:id="_AirVenybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="OPERATION_NAME" show="false" value="&quot;{http://soap.sforce.com/2005/09/outbound}notifications&quot;" xmi:id="_AirVe3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_REGISTRY" value="false" xmi:id="_AirVfHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_SL" value="false" xmi:id="_AirVfXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_SAM" value="false" xmi:id="_AirVfnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_SAM_MESSAGE" show="false" value="false" xmi:id="_AirVf3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_SECURITY" value="false" xmi:id="_AirVgHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_TYPE" show="false" value="USER" xmi:id="_AirVgXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" show="false" value="Authentication:" xmi:id="_AirVgnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="SAML_SECURITY_TYPES" show="false" value="NO_PROPAGATE" xmi:id="_AirVg3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="PROPAGATE_UP_LABEL" show="false" value="" xmi:id="_AirVhHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="PROPAGATE_AP_LABEL" show="false" value="" xmi:id="_AirVhXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="USE_PROPAGATE_CREDENTIAL" show="false" value="false" xmi:id="_AirVhnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="ALIASNAME" show="false" value="&quot;&quot;" xmi:id="_AirVh3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;" xmi:id="_AirViHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KGRU1UOkN7KmFs2w4/bVkaap09t/S6GcxBqE9/vu" xmi:id="_AirViXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="USE_AUTHORIZATION" show="false" value="false" xmi:id="_AirVinybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" show="false" value="Authorization:" xmi:id="_AirVi3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="ROLE_NAME" show="false" value="&quot;&quot;" xmi:id="_AirVjHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ENABLE_CORRELATION" value="false" xmi:id="_AirVjXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;" xmi:id="_AirVjnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="CORRELATION_VALUE_TOOLTIP" show="false" value="(Simple Expression is Available)" xmi:id="_AirVj3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false" xmi:id="_AirVkHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" xmi:id="_AirVkXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="SL_META_DATA" show="false" xmi:id="_AirVknybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVk3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVlHybEe2Z_ultV0NU8w"/>
+  </node>
+  <node componentName="cExchangePattern" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160" xmi:id="_AirVlXybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cExchangePattern_1" xmi:id="_AirVlnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="EXCHANGE_PATTERNS" value="InOnly" xmi:id="_AirVl3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVmHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVmXybEe2Z_ultV0NU8w"/>
+  </node>
+  <node componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160" xmi:id="_AirVmnybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_1" xmi:id="_AirVm3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="TYPE" value="queue" xmi:id="_AirVnHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="DESTINATION" value="&quot;salesforce_notification_account&quot;" xmi:id="_AirVnXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1" xmi:id="_AirVnnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="URI_OPTIONS" xmi:id="_AirVn3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVoHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVoXybEe2Z_ultV0NU8w"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160" xmi:id="_AirVonybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_AirVo3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="constant" xmi:id="_AirVpHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;&lt;out:notificationsResponse xmlns:out=\&quot;http://soap.sforce.com/2005/09/outbound\&quot;&gt;&lt;out:Ack&gt;true&lt;/out:Ack&gt;&lt;/out:notificationsResponse&lt;&quot;" xmi:id="_AirVpXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_AirVpnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_AirVp3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;                 *Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;                 *Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_AirVqHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVqXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVqnybEe2Z_ultV0NU8w"/>
+  </node>
+  <node componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="160" xmi:id="_AirVq3ybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_AirVrHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="LOGGING_CATEGORY" value="&quot;salesforce_contact_synchro.cLog_1&quot;" xmi:id="_AirVrXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO" xmi:id="_AirVrnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="RADIO" name="NOTHING" value="false" xmi:id="_AirVr3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="RADIO" name="GROUP_SIZE" value="false" xmi:id="_AirVsHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="1" xmi:id="_AirVsXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="RADIO" name="GROUP_INTERVAL" value="false" xmi:id="_AirVsnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="1" xmi:id="_AirVs3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="DELAY" show="false" value="0" xmi:id="_AirVtHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="CHECK" name="ACTIVE_ONLY" show="false" value="true" xmi:id="_AirVtXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="RADIO" name="FORMAT" value="false" xmi:id="_AirVtnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_AirVt3ybEe2Z_ultV0NU8w"/>
+    <elementParameter field="RADIO" name="USE_LOGEIP" value="true" xmi:id="_AirVuHybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;${in.body}&quot;" xmi:id="_AirVuXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_AirVunybEe2Z_ultV0NU8w"/>
+    <elementParameter field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;" xmi:id="_AirVu3ybEe2Z_ultV0NU8w"/>
+  </node>
+  <connection connectorName="ROUTE" label="route1" lineStyle="14" metaname="cSOAP_1" offsetLabelX="0" offsetLabelY="0" source="cSOAP_1" target="cExchangePattern_1" xmi:id="_AirVvHybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route1" xmi:id="_AirVvXybEe2Z_ultV0NU8w"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route2" lineStyle="14" metaname="cExchangePattern_1" offsetLabelX="0" offsetLabelY="0" source="cExchangePattern_1" target="cJMS_1" xmi:id="_AirVvnybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route2" xmi:id="_AirVv3ybEe2Z_ultV0NU8w"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route3" lineStyle="14" metaname="cJMS_1" offsetLabelX="0" offsetLabelY="0" source="cJMS_1" target="cSetBody_1" xmi:id="_AirVwHybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route3" xmi:id="_AirVwXybEe2Z_ultV0NU8w"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route4" lineStyle="14" metaname="cSetBody_1" offsetLabelX="0" offsetLabelY="0" source="cSetBody_1" target="cLog_1" xmi:id="_AirVwnybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route4" xmi:id="_AirVw3ybEe2Z_ultV0NU8w"/>
+  </connection>
+  <subjob xmi:id="_AirVxHybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMQConnectionFactory_1" xmi:id="_AirVxXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirVxnybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirVx3ybEe2Z_ultV0NU8w"/>
+  </subjob>
+  <subjob xmi:id="_AirVyHybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSOAP_1" xmi:id="_AirVyXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirVynybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirVy3ybEe2Z_ultV0NU8w"/>
+  </subjob>
+  <subjob xmi:id="_AirVzHybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cExchangePattern_1" xmi:id="_AirVzXybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirVznybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirVz3ybEe2Z_ultV0NU8w"/>
+  </subjob>
+  <subjob xmi:id="_AirV0HybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_1" xmi:id="_AirV0XybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirV0nybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirV03ybEe2Z_ultV0NU8w"/>
+  </subjob>
+  <subjob xmi:id="_AirV1HybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_AirV1XybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirV1nybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirV13ybEe2Z_ultV0NU8w"/>
+  </subjob>
+  <subjob xmi:id="_AirV2HybEe2Z_ultV0NU8w">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_AirV2XybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_AirV2nybEe2Z_ultV0NU8w"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_AirV23ybEe2Z_ultV0NU8w"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cb9ade69-d516-4ba5-91f5-e48d5b5bdc92"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5GHKPE8aeAYrgaZZHnNgr1vvxal7zAAPW69nLRCYUI5iJd9PXSYVSBK1EipAP4jQPZ5J7+KHzjOw&#13;
+x/ixp3SKrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7f3dd40-9789-4180-9879-18b80081d878"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F62Nwv2HojkJqBDOGtB3BjH1O+E4yJ1hcL0xSN6HQusUlYvxR/qBE89x/KTV5gxRogj91i4bAEla&#13;
++PpTPAAWng==</DigestValue></Reference></SignedInfo><SignatureValue>I0Du2P2bjrSSeImGfxu7omZ7Z6JzmN8peJ1/g1sTv7C1as8b9wDkrmFk7G6FMcEBQ4GoN5WOLy/K&#13;
++WS7/20ocNuxZ2GN5z9YeM9DvGwI8G2U1P7QvfyUp2N3vQb66EbWsRuvFZdF6c+ZUOR/eOyVYPAX&#13;
+wzc19KkABy7CFbZVE67WUPyxcyaTyvFxrEK7xJN6252yN9WFlYLsdDdq6or+mG/+E/Df3RzPEppu&#13;
+AIk1WeSTfdZsCxs1g+c2aR1ZsWkrBFOC1Pcx/iEzASzFvtSRN3pxKRolFeRVjt3wuwPyHY6U/v4D&#13;
+kPmBHXQz2P5dsOIkwaNP5GaVPbQ+zgrNLBlc/w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7f3dd40-9789-4180-9879-18b80081d878" Target="#_cb9ade69-d516-4ba5-91f5-e48d5b5bdc92"><Timestamp>2022-12-16 13:33:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
