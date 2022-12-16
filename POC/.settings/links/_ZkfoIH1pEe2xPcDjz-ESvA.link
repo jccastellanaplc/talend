@@ -1,0 +1,29 @@
+{
+  "itemId" : "_ZkfoIH1pEe2xPcDjz-ESvA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qfOOcH1qEe2xPcDjz-ESvA",
+    "parameterList" : [ {
+      "id" : "_qgCGwX1qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_Schema"
+    }, {
+      "id" : "_qgCGwn1qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_Password"
+    }, {
+      "id" : "_qgCGw31qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_Server"
+    }, {
+      "id" : "_qgCt0H1qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_Port"
+    }, {
+      "id" : "_qgCt0X1qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_Login"
+    }, {
+      "id" : "_qgCt0n1qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_ServiceName"
+    }, {
+      "id" : "_qgCt031qEe2xPcDjz-ESvA",
+      "name" : "BDD_ORACLE_IFS_AdditionalParams"
+    } ]
+  } ]
+}
