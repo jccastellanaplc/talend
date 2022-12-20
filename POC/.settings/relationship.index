@@ -1,1 +1,20 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_77cYEH1GEe2Z_ultV0NU8w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_NW51AIBKEe2xPcDjz-ESvA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_NW51AIBKEe2xPcDjz-ESvA - Contact",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
